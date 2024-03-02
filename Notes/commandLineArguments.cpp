@@ -23,6 +23,6 @@ Force npm as package manager. Yarn is also a possibility.
 Starter template for initial project.
 
 "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
-specific example template.
+specific example template.paginary
 
 */
