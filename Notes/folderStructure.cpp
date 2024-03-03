@@ -1,15 +1,11 @@
 /*
 
 /app: Routes, components, and logic for your application
-
 /app/lib: Functions used in your application, reusable utility and data fetching functions.
-
 /app/ui: UI Components.
 
 /public: Static assets, yaml files.
-
 /scripts: Just a seeding script to be able to work on.
-
 Config Files: next.config.js at the root of application.
 
 Separate UIs for each route using layout.tsx and page.tsx files.
@@ -23,6 +19,12 @@ layout.tsx is there to create shared attributes between pages.
 loading.tsx is there to apply suspense behaviour and the page shown while waiting for dynamic data to load, static data is shown instantly.
 
 Overview file is meant to override the hierarchy behaviour for specific pages (routegroups, does not show on URL path)
+
+if a specific route requires a key element, add that element with square brackets such as [id]
+
+error.tsx file serves as a catch-all for unexpected errors.
+not-found.tsx file serves as a catch when data is unavailable.
+https://nextjs.org/docs/app/api-reference/file-conventions/error
 
 
 
