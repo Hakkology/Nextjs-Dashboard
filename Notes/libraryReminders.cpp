@@ -48,7 +48,10 @@ import { useEffect } from 'react';
 error.tsx needs to be a Client component.
 takes error and reset.
 
-import { useFormState } from 'react-dom';
-client side form state use, takes (action, initialState), returns [state, dispatch]
+import { useFormState, useFormStatus } from 'react-dom';
+useFormState - client side form state use, takes (action, initialState), returns [state, dispatch]
+useFormStatus - handle the pending state of the form.
+
+
 
 */
