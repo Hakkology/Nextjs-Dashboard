@@ -15,7 +15,15 @@ Config Files: next.config.js at the root of application.
 Separate UIs for each route using layout.tsx and page.tsx files.
 
 page.tsx is a special Next.js file that exports a React component, and it's required for the route to be accessible. 
-In your application, you already have a page file: /app/page.tsx - this is the home page associated with the route 
+
 To create a nested route, you can nest folders inside each other and add page.tsx files inside them.
+
+layout.tsx is there to create shared attributes between pages.
+
+loading.tsx is there to apply suspense behaviour and the page shown while waiting for dynamic data to load, static data is shown instantly.
+
+Overview file is meant to override the hierarchy behaviour for specific pages (routegroups, does not show on URL path)
+
+
 
 */
